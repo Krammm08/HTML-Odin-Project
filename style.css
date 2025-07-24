@@ -33,15 +33,16 @@ h1 {
 img {
   /* background: blue; */
   margin: 30px auto;
-  width: 80%;
-  height: auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 .container {
   /* outline: 3px solid var(--clr-dark); */
   flex-wrap: wrap;
   margin: 0 auto;
-  height: 1000px;
-  width: 1000px;
+  height: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
